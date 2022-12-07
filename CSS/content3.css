@@ -1,0 +1,44 @@
+/* content 3 starts */
+.content3 {
+    height: 230px;
+    margin-top: 50px;
+    background-color: #a3c962;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .content3 .items {
+    margin: 0 100px;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .content3 .items p {
+    color: black;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .content3 .items h2 {
+    font-size: 22px;
+    color: white;
+  }
+  
+  /* content 3 ends */
+  
+  /* responsive for content 3 starts here */
+  @media screen and (max-width:992px) {
+    .content3{
+        width: 100%;
+        height: auto;
+    }
+    .content3 .items{
+        margin-top: 15px;
+    }
+  }
+  /* responsive for content 3 ends here */

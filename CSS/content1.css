@@ -1,0 +1,256 @@
+/* container start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.container .content {
+    text-align: center;
+    padding-top: 35px;
+    /* background-color: red; */
+    color: black;
+    font-size: 25px;
+}
+
+.container .content p {
+    padding-top: 5px;
+}
+
+.container .content .text-first {
+    color: rgb(31, 196, 86);
+}
+
+.container .content .text-third {
+    padding: 35px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-div {
+    /* background-color: pink; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+
+}
+
+.main-div .item {
+    width: 40%;
+}
+
+.main-div .item {
+    text-align: right;
+}
+
+/* .main-div .content-div {
+    /* background-color: green;
+  }*/
+
+.main-div .content-div .percentlogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+}
+
+.main-div .content-div .item1 {
+    background-color: red;
+    width: 180px;
+    height: 160px;
+}
+
+.main-div .content-div p {
+    text-align: left;
+}
+
+.main-div .item .text-secondd {
+    line-height: 1.5;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-div .item .text-thirdd {
+    line-height: 1.9;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* main div ends */
+
+.content1 {
+    background-color: rgb(75, 181, 219);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 .demo-item {
+    width: 530px;
+    /* background-color: rgb(196, 145, 145); */
+    margin: 0px 10px;
+}
+
+.content1 .demo-item .text-first {
+    padding-top: 15px;
+    text-align: right;
+    font-size: 17px;
+    line-height: 1.4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content1 .demo-item .p1 {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.content1 .demo-item .p2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.data {
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.data .data-item {
+    margin: 10px;
+    width: 30%;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.data .data-item .active {
+    line-height: 1.8;
+}
+
+.data .data-item p {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.data .data-item:hover {
+    background-color: rgb(213, 192, 192);
+    transition: all 1s;
+}
+
+.about-us-info-circle {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.about-us-circle {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-right: 70px;
+
+}
+
+.blue-circle,
+.orange-circle {
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.blue-circle {
+    border: 4px solid rgb(86, 187, 220);
+
+}
+
+.orange-circle {
+    border: 4px solid orange;
+}
+
+
+.blue-circle p,
+.orange-circle p {
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+
+}
+
+.orange-circle p {
+    color: orange;
+}
+
+.blue-circle p {
+    color: rgb(86, 187, 220);
+}
+
+.circle-info {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* container ends */
+/* responsive */
+@media screen and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-div {
+        width: 100%;
+    }
+
+    .img-div img {
+        left: 50;
+        width: 100%;
+    }
+    .active,
+    .text-secondd{
+        padding: 0;
+        font-size: 20px !important;
+    }
+    .info{
+        width: 100%;
+    }
+    .info .content1 .demo-item.text-first p{
+        padding: 0px;
+        padding-top: 15px !important;
+        text-align: center;
+        margin: 0px;       
+    }
+    .p1, .p2{
+        text-align: center !important;
+    }
+    .data{
+        width: 300px;
+    }
+    .data .data-item{
+        width: 450px !important;
+    }
+}

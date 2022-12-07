@@ -1,0 +1,138 @@
+
+/* content 7 start here */
+
+.content7 .content7-data {
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content7 .content7-data .demo-item {
+    width: 550px;
+    margin: 10px 10px;
+  }
+  
+  .content7 .content7-data .demo-item .text-first {
+    text-align: right;
+    font-size: 17px;
+    line-height: 1.8;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .content7 .content7-data .demo-item .p1 {
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 35px;
+    font-size: 20px;
+  }
+  
+  .content7 .content7-data .demo-item .p2 {
+    text-align: left;
+    color: black;
+    padding-left: 35px;
+    font-size: 45px;
+  }
+  
+  .content7 .content7-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .content7 .content7-items .items {
+    line-height: 1.8;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    width: 250px;
+  }
+  
+  .content7 .items .p1 {
+    color: #a3c962;
+    font-size: 30px;
+  }
+  
+  .content7 .items .p2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 2.5;
+    color: grey;
+  
+  }
+  
+  .content7-inside-data {
+    display: flex;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .idata1 {
+    width: 25%;
+    height: 500px;
+  
+  }
+  
+  .idata1 .img-div {
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(230, 225, 225);
+    margin-top: 80px;
+    width: 200px;
+    height: 180px;
+    background-color: grey;
+  }
+  
+  .idata1 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .idata1 h1 {
+    color: #a3c962;
+    line-height: 1.5;
+    padding-top: 10px;
+  }
+  
+  .idata1 p {
+    line-height: 1.5;
+    font-size: 19px;
+    padding-top: 5px;
+  }
+  
+  .idata1 .text {
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+  }
+  
+  /* content 7 ends  here*/
+
+
+/* responsive for content 7 starts here*/
+@media screen and (max-width:992px) {
+    .content7-inside-data{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        
+    }
+    .idata1{
+        text-align: center;
+        width: 100%;
+        padding-left: 20px;
+        height: 450px !important;
+        
+    }
+
+    .content7-inside-data .idata1 .img-div {
+        margin-left: 80px !important;
+        margin-top: 25px !important;
+    }
+}  
+/* responsive for content 7 ends here*/

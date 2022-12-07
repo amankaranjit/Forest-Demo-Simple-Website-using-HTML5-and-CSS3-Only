@@ -1,0 +1,97 @@
+
+/* content 6 starts here*/
+
+.content6 .content6-data {
+    margin-top: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content6 .content6-data .demo-item {
+    width: 550px;
+    margin: 10px 10px;
+  }
+  
+  .content6 .content6-data .demo-item .text-first {
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.8;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .content6 .content6-data .demo-item .p1 {
+    line-height: 1.5;
+    text-align: right;
+    padding-left: 35px;
+    font-size: 20px;
+  }
+  
+  .content6 .content6-data .demo-item .p2 {
+    text-align: right;
+    color: white;
+    padding-left: 35px;
+    font-size: 45px;
+  }
+  
+  .content6 .content6-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .content6 .content6-items .items {
+    line-height: 1.8;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    width: 250px;
+  }
+  
+  .content6 .items .p1 {
+    color: #a3c962;
+    font-size: 30px;
+  }
+  
+  .content6 .items .p2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 2.5;
+    color: grey;
+  
+  }
+  
+  .content6 .items button {
+    margin: 10px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    background-color: #a3c962;
+    border: none;
+    line-height: 1.8;
+    border-radius: 35px;
+  }
+  
+  .content6 .items button:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  /* responsive  for content 6 starts here*/
+  @media screen and (max-width:992px) {
+    .content6 {
+        height: auto !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    } 
+  }
+  
+  /* responsive for content 6 ends here */
+  
+  

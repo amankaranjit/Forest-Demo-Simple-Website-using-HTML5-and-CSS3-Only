@@ -1,0 +1,204 @@
+/* content2 start here*/
+.content2 {
+  padding-top: 50px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 .demo-item {
+  width: 550px;
+  margin: 10px 10px;
+}
+
+.content2 .demo-item .text-first {
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.5;
+  color: grey;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content2 .demo-item .p1 {
+  line-height: 1.5;
+  text-align: right;
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+.content2 .demo-item .p2 {
+  text-align: right;
+  padding-left: 35px;
+  font-size: 35px;
+}
+
+.content2 .demo {
+  width: 80%;
+  /* background-color: rgb(75, 181, 219); */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+}
+
+.content2 .demo .first-img {
+  height: 450px;
+  width: 600px;
+  background-color: rgb(196, 145, 145);
+}
+
+.content2 .demo .first-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .second-img {
+  height: 250px;
+  width: 277px;
+  background-color: rgb(196, 145, 145);
+  margin-left: 30px;
+}
+
+.content2 .demo .second-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .third-img {
+  height: 400px;
+  width: 277px;
+  background-color: rgb(196, 145, 145);
+  margin-left: 30px;
+}
+
+.content2 .demo .third-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .fourth-img {
+  margin-top: 0px;
+  height: 250px;
+  width: 285px;
+  background-color: rgb(196, 145, 145);
+  margin-top: 30px;
+}
+
+.content2 .demo .fourth-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .fifth-img {
+  margin-top: 0px;
+  height: 250px;
+  width: 285px;
+  background-color: rgb(196, 145, 145);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.content2 .demo .fifth-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .sixth-img {
+  height: 250px;
+  width: 277px;
+  background-color: rgb(196, 145, 145);
+  margin-left: 30px;
+}
+
+.content2 .demo .sixth-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .seventh-img {
+  margin-top: 30px;
+  height: 450px;
+  width: 600px;
+  background-color: rgb(196, 145, 145);
+}
+
+.content2 .demo .seventh-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content2 .demo .eigth-img {
+  margin-left: 30px;
+  height: 410px;
+  width: 585px;
+  background-color: rgb(196, 145, 145);
+}
+
+.content2 .demo .eigth-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* content 2 ends */
+/* responsive for content 2 starts here*/
+@media screen and (max-width:992px) {
+
+  .info2 .content2 .demo-item .p1,
+  .p2 {
+    text-align: centers;
+    margin-top: 0px;
+  }
+
+
+  .text-first {
+    text-align: center !important;
+  }
+
+.demo .first-img{
+  width: 400px !important;
+}
+
+  .demo .second-img {
+    width: 400px !important;
+    margin: 15px 0px !important;
+  }
+
+  .demo .third-img {
+    margin: 0px !important;
+    width: 400px !important;
+  }
+
+  .demo .fourth-img {
+    margin: 0px !important;
+    width: 400px !important;
+    margin: 15px 0px !important;
+  }
+
+  .demo .fifth-img {
+    margin: 0px !important;
+    width: 400px !important;
+    margin: 5px 0px !important;
+  }
+
+  .demo .sixth-img {
+    margin: 0px !important;
+    width: 400px !important;
+    margin: 15px 0px !important;
+  }
+
+  .demo .seventh-img {
+    margin: 0px !important;
+    width: 400px !important;
+    margin: 10px 0px !important;
+  }
+
+  .demo .eigth-img {
+    margin: 0px !important;
+    width: 400px !important;
+    margin: 15px 0px !important;
+  }
+}
+/* responsive for content 2 ends here */
+

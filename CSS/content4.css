@@ -1,0 +1,37 @@
+/* content 4 starts here */
+.content4 {
+    background-color: #fff;
+    margin-top: 50px;
+    width: 100%;
+  
+  }
+  
+  .content4-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content4-data .demo-item {
+    width: 530px;
+    margin: 10px 10px;
+  }
+  
+  .content4-data .demo-item .text-first {
+    text-align: right;
+    font-size: 17px;
+    line-height: 1.5;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .content4-data .demo-item .p1 {
+    padding-left: 35px;
+    font-size: 20px;
+  }
+  
+  .content4-data .demo-item .p2 {
+    padding-left: 35px;
+    font-size: 35px;
+  }
